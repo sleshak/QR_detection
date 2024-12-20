@@ -1,2 +1,1 @@
-# QR_detection
-# black bebra
+# Детекция QR-кода

@@ -45,7 +45,7 @@ while video_cap.isOpened():
     if not ret:
         break
     
-    #gray_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+    gray_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     
     barcodes = decode(gray_frame)
     
